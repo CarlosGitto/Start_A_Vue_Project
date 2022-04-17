@@ -1,4 +1,4 @@
-# Starting a new Vue 3 project for linux with bootstrap and Fontawesome
+# Starting a new Vue 3 project for linux with Bootstrap 5 and Fontawesome
 
 Please be sure you have install `Node.js` before continue
 
