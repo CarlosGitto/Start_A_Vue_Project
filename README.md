@@ -107,7 +107,7 @@ Where `faHatWizard` is the name of the icon you want to add, the on your `create
 
 To use the icon insert into your template code:
 
-`<font-awesome-icon icon=”hat-wizard” />`
+`<font-awesome-icon icon="hat-wizard" />`
 
 ## Sources
 
