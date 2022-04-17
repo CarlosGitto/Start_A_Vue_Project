@@ -94,7 +94,7 @@ Inside your project go to `src/main.js` and add the following:
 ```
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { faHatWizar } from '@fortawesome/free-solid-svg-icons'
+import { faHatWizard } from '@fortawesome/free-solid-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
