@@ -114,6 +114,7 @@ To use the icon insert into your template code:
 - https://cli.vuejs.org/guide/creating-a-project.html
 - https://stackoverflow.com/questions/65547199/using-bootstrap-5-with-vue-3
 - https://blog.fontawesome.com/how-to-use-vue-js-with-font-awesome/
+- https://github.com/FortAwesome/vue-fontawesome
 
 ## END
 
