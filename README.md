@@ -1,4 +1,4 @@
-# Starting a new Vue 3 project for linux with bootstrap
+# Starting a new Vue 3 project for linux with bootstrap and Fontawesome
 
 Please be sure you have install `Node.js` before continue
 
@@ -74,6 +74,46 @@ npm run serve
 ```
 
 Then go to your browser and type 'http://localhost:8080'
+
+## FONTAWESOME
+### Start a CLI and run
+
+```
+cd /your_project_path
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/vue-fontawesome@latest
+code .
+```
+
+### How to add fontawesome icons to your vue project
+
+Inside your project go to `src/main.js` and add the following:
+
+```
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+import { faHatWizar } from '@fortawesome/free-solid-svg-icons'
+
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faHatWizard)
+
+```
+***`library.add()` can recieve an array of icons**
+
+Where `faHatWizard` is the name of the icon you want to add, the on your `create(App)` append `.component('font-awesome-icon', FontAwesomeIcon)`
+
+To use the icon insert into your template code:
+
+`<font-awesome-icon icon=”hat-wizard” />`
+
+## Sources
+
+- https://cli.vuejs.org/guide/creating-a-project.html
+- https://stackoverflow.com/questions/65547199/using-bootstrap-5-with-vue-3
+- https://blog.fontawesome.com/how-to-use-vue-js-with-font-awesome/
 
 ## END
 
